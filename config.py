@@ -26,8 +26,8 @@ class Config(object):
     CHUNK_SIZE = 128
 
     # default thumbnail to be used in the videos
-    DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "")
+    DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://telegra.ph/file/add862eaeed791683b1e6.jpg")
     
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Unknown22:v6jFrDFhAgiicrf9@cluster0.rooy1mk.mongodb.net/?retryWrites=true&w=majority")
     
